@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 const path = require('path');
 //Motor de plantillas_____________
 app.set('view engine', 'ejs');//##
-app.set('views',path.join(__dirname,'../FRONTEND/views'));
+app.set('views',path.join(__dirname,'./views'));
 //________________________________
 
 //Rutas__________________________
